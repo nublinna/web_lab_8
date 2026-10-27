@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="StudentsModule">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='ETU.web_lab_8.StudentsModule' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/StudentsModule/greet" class="ETU.web_lab_8.server.GreetingServiceImpl" />
+
+</module>
